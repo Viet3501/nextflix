@@ -1,0 +1,63 @@
+@import "normalize.css";
+@import url("https://use.typekit.net/nko5fvg.css");
+
+:root {
+  --black:#000;
+  --default-layout-header-height: 65px;
+  --default-layout-width: 1404px;
+  --tw-text-opacity: 1;
+  --text-color: hsla(0,0%,100%,.38);
+  --tw-border-opacity: 1;
+  --white:#fff;
+  --color-background:#ccc
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: var(--default-layout-header-height);
+}
+
+body {
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  // height: 3000px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #666; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #444; 
+}
+
+button , input , [tabindex]{
+    outline: none;
+    border: none;
+}
+a[href]{
+    text-decoration: none;
+    color: hsla(0,0%,100%,.6);
+}
+li {
+  list-style: none;
+}

@@ -1,0 +1,21 @@
+.subMenu {
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    width: max-content;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+.icon {
+    font-size: 2.2rem;
+    margin-right: 8px;
+}
+span {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgba(22, 22, 22, 0.8);
+    &:hover {
+        color: rgba(3, 3, 3, 1);
+        
+    }
+}
